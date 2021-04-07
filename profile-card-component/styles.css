@@ -14,6 +14,7 @@ body {
   color: hsl(227, 10%, 46%);
   background-color: hsl(185, 75%, 39%);
   overflow: hidden;
+  height: 100vh;
 }
 
 hr {
@@ -39,13 +40,17 @@ h3 {
   color: hsl(229, 23%, 23%);
 }
 
+.extra {
+  /* border: 2px solid red; */
+}
+
 /* 
 ====
 layout 
 ====*/
 
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   width: 80%;
   margin: 0 auto;
   position: relative;
@@ -130,16 +135,16 @@ layout
   margin-left: 3em;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
   .top-bg-pattern {
     top: -800px;
-    left: -200px;
+    left: -450px;
     transform: scale(1.1);
   }
 
   .bottom-bg-pattern {
     bottom: -800px;
-    right: -380px;
+    right: -580px;
     transform: scale(1.3);
   }
 }
