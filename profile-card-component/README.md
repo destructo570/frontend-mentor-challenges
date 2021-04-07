@@ -16,7 +16,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Solution URL: [Check out my solution](https://github.com/destructo570/frontend-mentor-challenges/tree/main/profile-card-component)
 
-- Live Site: [See it live] (https://profile-card-component-sable-pi.vercel.app/)
+- Live Site: [See it live](https://profile-card-component-sable-pi.vercel.app/)
 
 ## My process
 
