@@ -13,6 +13,7 @@ body {
   font-size: 1.125rem;
   color: hsl(227, 10%, 46%);
   background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
 }
 
 hr {
@@ -71,9 +72,9 @@ layout
 .bottom-bg-pattern {
   bottom: -700px;
   right: -600px;
+  transform: scale(0.7);
   position: absolute;
   z-index: -1;
-  transform: scale(0.7);
 }
 
 .card-bg {
