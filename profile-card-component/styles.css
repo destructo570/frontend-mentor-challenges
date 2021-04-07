@@ -1,0 +1,127 @@
+/*
+global-styles
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", "sans-serif";
+  font-size: 1.125rem;
+  color: hsl(227, 10%, 46%);
+  background-color: hsl(185, 75%, 39%);
+}
+
+hr.divider {
+  border-top: 1px solid #f2f0f0;
+}
+
+/*
+typography
+*/
+
+h3 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+/* 
+====
+layout 
+====*/
+
+.top-bg-pattern {
+  top: -500px;
+  left: -600px;
+  position: absolute;
+  z-index: -1;
+  transform: scale(0.8);
+}
+
+.bottom-bg-pattern {
+  bottom: -400px;
+  right: -500px;
+  position: absolute;
+  z-index: -1;
+  transform: scale(0.7);
+}
+
+.container {
+  max-width: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.card-bg {
+  background-color: white;
+  max-width: 370px;
+  margin: 15em auto;
+  border-radius: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-bg-pattern {
+  position: absolute;
+  z-index: 2;
+  border-radius: 16px 16px 0px 0px;
+  margin: 0 auto;
+  width: 370px;
+}
+
+.profile-bg {
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+  padding-top: 5em;
+}
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.profile-user-name {
+  padding-top: 1.5em;
+}
+
+.user-location {
+  padding-top: 0.9em;
+  padding-bottom: 1.5em;
+  font-size: 0.9rem;
+}
+
+.profile-stats {
+  padding: 1.5em 0;
+}
+
+.profile-stats-item {
+  text-align: center;
+}
+
+.profile-stats-item p {
+  padding: 0.5em;
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+}
+
+.profile-stats-item + .profile-stats-item {
+  margin-left: 3em;
+}
+
+.profile-user-name p {
+  margin-left: 0.5em;
+}
+
+@media (min-width: 1300px) {
+}
