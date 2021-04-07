@@ -78,7 +78,7 @@ layout
 
 .card-bg {
   background-color: white;
-  max-width: 360px;
+  width: 360px;
   margin: 15em auto;
   border-radius: 16px;
   position: relative;
@@ -91,7 +91,7 @@ layout
   z-index: 2;
   border-radius: 16px 16px 0px 0px;
   margin: 0 auto;
-  width: 360px;
+  min-width: 360px;
 }
 
 .profile-bg {
