@@ -84,7 +84,7 @@ layout
 
 .card-bg {
   background-color: white;
-  width: 360px;
+  width: 100%;
   margin: 25vh auto;
   border-radius: 16px;
   position: relative;
@@ -97,7 +97,7 @@ layout
   z-index: 2;
   border-radius: 16px 16px 0px 0px;
   margin: 0 auto;
-  min-width: 360px;
+  width: 100%;
 }
 
 .profile-bg {
@@ -133,6 +133,12 @@ layout
 
 .profile-stats-title + .profile-stats-title {
   margin-left: 3em;
+}
+
+@media (min-width: 360px) {
+  .card-bg {
+    max-width: 400px;
+  }
 }
 
 @media (min-width: 1400px) {
