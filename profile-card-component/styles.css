@@ -15,9 +15,9 @@ body {
   background-color: hsl(185, 75%, 39%);
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
-  background-position: top -25em left -35em, bottom -25em right -30em;
+  background-position: top -20em right 50vw, bottom -25em left 45vw;
   background-repeat: no-repeat no-repeat;
-  background-size: 200%;
+  background-size: 800px 800px;
 }
 
 hr {
@@ -43,17 +43,13 @@ h3 {
   color: hsl(229, 23%, 23%);
 }
 
-.extra {
-  /* border: 2px solid red; */
-}
-
 /* 
 ====
 layout 
 ====*/
 
 .container {
-  max-width: 1400px;
+  max-width: 800px;
   width: 80%;
   margin: 0 auto;
   position: relative;
@@ -140,12 +136,5 @@ layout
 @media (min-width: 360px) {
   .card-bg {
     max-width: 360px;
-  }
-}
-
-@media (min-width: 800px) {
-  body {
-    background-position: top -50rem left -44rem, bottom -50rem right -44rem;
-    background-size: 1200px 1200px;
   }
 }
