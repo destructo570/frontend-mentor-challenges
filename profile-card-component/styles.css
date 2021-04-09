@@ -65,24 +65,9 @@ layout
   border: 5px solid white;
 }
 
-.top-bg-pattern {
-  top: -750px;
-  left: -650px;
-  position: absolute;
-  z-index: -1;
-  transform: scale(0.8);
-}
-
-.bottom-bg-pattern {
-  bottom: -700px;
-  right: -600px;
-  transform: scale(0.7);
-  position: absolute;
-  z-index: -1;
-}
-
 .card-bg {
   background-color: white;
+  max-width: 360px;
   margin: 25vh auto;
   border-radius: 16px;
   position: relative;
@@ -133,8 +118,10 @@ layout
   margin-left: 3em;
 }
 
-@media (min-width: 360px) {
-  .card-bg {
-    max-width: 360px;
-  }
+.attribution {
+  font-size: 0.8rem;
+  color: #f2f0f0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
