@@ -15,7 +15,7 @@ body {
   background-color: hsl(185, 75%, 39%);
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
-  background-position: top -25rem left -35rem, bottom -25rem right -30rem;
+  background-position: top -25em left -35em, bottom -25em right -30em;
   background-repeat: no-repeat no-repeat;
   background-size: 200%;
 }
@@ -137,22 +137,15 @@ layout
   margin-left: 3em;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   .card-bg {
-    width: 400px;
+    max-width: 360px;
   }
 }
 
-@media (min-width: 1400px) {
-  .top-bg-pattern {
-    top: -800px;
-    left: -450px;
-    transform: scale(1.1);
-  }
-
-  .bottom-bg-pattern {
-    bottom: -800px;
-    right: -580px;
-    transform: scale(1.3);
+@media (min-width: 800px) {
+  body {
+    background-position: top -50rem left -44rem, bottom -50rem right -44rem;
+    background-size: 1200px 1200px;
   }
 }
