@@ -13,8 +13,11 @@ body {
   font-size: 1.125rem;
   color: hsl(227, 10%, 46%);
   background-color: hsl(185, 75%, 39%);
-  overflow: hidden;
-  height: 100vh;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: top -25rem left -35rem, bottom -25rem right -30rem;
+  background-repeat: no-repeat no-repeat;
+  background-size: 200%;
 }
 
 hr {
@@ -84,7 +87,6 @@ layout
 
 .card-bg {
   background-color: white;
-  width: 360px;
   margin: 25vh auto;
   border-radius: 16px;
   position: relative;
@@ -94,10 +96,10 @@ layout
 
 .profile-bg-pattern {
   position: absolute;
+  width: 100%;
   z-index: 2;
   border-radius: 16px 16px 0px 0px;
   margin: 0 auto;
-  min-width: 360px;
 }
 
 .profile-bg {
@@ -133,6 +135,12 @@ layout
 
 .profile-stats-title + .profile-stats-title {
   margin-left: 3em;
+}
+
+@media (min-width: 400px) {
+  .card-bg {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1400px) {
