@@ -1,3 +1,9 @@
+/* 
+======
+Global styles
+======
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -28,6 +34,34 @@ h2 {
 .row {
   display: block;
 }
+
+/* 
+======
+Typography
+======
+*/
+
+.promo__card__cta--orange-text {
+  color: hsl(31, 77%, 52%);
+}
+
+.promo__card__cta--cyan-text {
+  color: hsl(184, 100%, 22%);
+}
+
+.promo__card__cta--dark-cyan-text {
+  color: hsl(179, 100%, 13%);
+}
+
+.promo__card__cta--text {
+  text-decoration: none;
+}
+
+/* 
+======
+Layout Styles
+======
+*/
 
 .promo {
   list-style: none;
@@ -66,7 +100,6 @@ h2 {
   padding: 0.7em 1.5em;
   margin-top: 1em;
   display: inline-block;
-  text-decoration: none;
 }
 
 .promo__card__cta:hover {
@@ -75,16 +108,10 @@ h2 {
   border: 2px solid white;
 }
 
-.promo__card__cta--orange-text {
-  color: hsl(31, 77%, 52%);
-}
-
-.promo__card__cta--cyan-text {
-  color: hsl(184, 100%, 22%);
-}
-
-.promo__card__cta--dark-cyan-text {
-  color: hsl(179, 100%, 13%);
+.attribution {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 920px) {
