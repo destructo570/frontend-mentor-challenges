@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
 
     <link
       rel="icon"
@@ -13,49 +18,143 @@
     />
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
-
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <main class="container">
+      <section class="hero">
+        <div>
+          <h1 class="hero__title">10,000+ of our users love our products.</h1>
+          <p class="hero__desc">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+        <div class="hero__promo">
+          <div class="hero__card">
+            <ul class="hero__star">
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+            </ul>
+            <h3 class="hero__review-title">Rated 5 Stars in Reviews</h3>
+          </div>
+          <div class="hero__card">
+            <ul class="hero__star">
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+            </ul>
+            <h3 class="hero__review-title">Rated 5 Stars in Report Guru</h3>
+          </div>
+          <div class="hero__card">
+            <ul class="hero__star">
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+              <li>
+                <img src="images/icon-star.svg" width="80%" alt="" />
+              </li>
+            </ul>
+            <h3 class="hero__review-title">Rated 5 Stars in BestTech</h3>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews__card">
+          <div class="review__user">
+            <img
+              class="reviews__img reviews__img--round"
+              src="images/image-colton.jpg"
+              alt=""
+            />
+            <div class="review__user-info">
+              <h3 class="reviews__user-name">Colton Smith</h3>
+              <h3 class="reviews__verified-tag reviews__verified-tag--normal">
+                Verified Buyer
+              </h3>
+            </div>
+          </div>
+          <p class="reviews__user-review">
+            "We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            received it in time. Excellent!"
+          </p>
+        </div>
+        <div class="reviews__card">
+          <div class="review__user">
+            <img
+              class="reviews__img reviews__img--round"
+              src="images/image-irene.jpg"
+              alt=""
+            />
+            <div class="review__user-info">
+              <h3 class="reviews__user-name">Irene Roberts</h3>
+              <h3 class="reviews__verified-tag reviews__verified-tag--normal">
+                Verified Buyer
+              </h3>
+            </div>
+          </div>
+          <p class="reviews__user-review">
+            "Customer service is always excellent and very quick turn around.
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery."
+          </p>
+        </div>
+        <div class="reviews__card">
+          <div class="review__user">
+            <img
+              class="reviews__img reviews__img--round"
+              src="images/image-anne.jpg"
+              alt=""
+            />
+            <div class="review__user-info">
+              <h3 class="reviews__user-name">Anne Wallace</h3>
+              <h3 class="reviews__verified-tag reviews__verified-tag--normal">
+                Verified Buyer
+              </h3>
+            </div>
+          </div>
+          <p class="reviews__user-review">
+            "Put an order with this company and can only praise them for the
+            very high standard. Will definitely use them again and recommend
+            them to everyone!"
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
