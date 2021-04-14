@@ -11,6 +11,7 @@ body {
     url("images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
   background-position: top 0px left 0px, bottom 0px right 0px;
+  background-size: auto, cover;
 }
 
 .container {
