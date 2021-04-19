@@ -108,6 +108,10 @@ body {
   body {
     background-position: top 0px left 0px, top -20% left 0px;
   }
+
+  .hero {
+    padding-top: 5em;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -122,7 +126,7 @@ body {
   }
 
   .hero__info {
-    max-width: 43%;
+    max-width: 38%;
   }
 
   .hero__title {
@@ -159,7 +163,16 @@ body {
     display: flex;
   }
 
+  .reviews__card {
+    align-self: flex-start;
+  }
+
   .reviews__card + .reviews__card {
     margin-left: 2rem;
+    margin-top: 2em;
+  }
+
+  .reviews__card + .reviews__card + .reviews__card {
+    margin-top: 4em;
   }
 }
