@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Poppins", "sans-serif";
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.nav {
+  display: flex;
+  padding: 1.5em 0;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 40%;
+  align-self: center;
+}
+.btn-register {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid hsl(321, 100%, 78%);
+  padding: 0.5em 2em;
+  font-size: 0.85rem;
+  color: hsl(321, 100%, 78%);
+}
+
+.promo {
+  padding: 4em 0;
+}
+
+.promo__title {
+  margin-bottom: 1em;
+}
+
+.promo__body {
+  margin: 2em 0;
+}
+
+.btn-link {
+  padding: 0.8em 2em;
+  border-radius: 40px;
+  margin: 2em 0;
+  display: inline-block;
+  background-color: hsl(322, 100%, 66%);
+  text-decoration: none;
+  color: white;
+}
+.marketing__cta {
+  margin-bottom: 10em;
+}
+
+.promo__img {
+  margin-top: 4em;
+}
+
+.text-center {
+  text-align: center;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.statistics div {
+  margin: 4em 0;
+  align-self: center;
+}
+
+.statistics__icon {
+  width: 25%;
+  display: block;
+}
+
+.statistics__title {
+  font-size: 3.5rem;
+}
+
+.statistics__body {
+  color: hsl(0, 0%, 55%);
+}
+
+.marketing__wrapper {
+  margin-top: 10em;
+}
+
+.marketing__title {
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.illus {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: justify;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+
+.newsletter__body {
+  margin: 1.5em 0;
+}
+
+.newsletter__input {
+  display: block;
+  width: 100%;
+  padding: 1em 0.5em;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  resize: none;
+  outline: none;
+}
+
+.newsletter__submit {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-radius: 8px;
+  border: 0px solid transparent;
+  padding: 1em 4em;
+  font-family: "Poppins";
+  font-kerning: 5;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  display: inline-block;
+}
+
+.social__logo {
+  width: 50%;
+  margin: 0 5em;
+  margin: 1em 0;
+  display: block;
+}
+
+.social__contact-icon {
+  width: 5%;
+  align-self: center;
+}
+
+.social__contact {
+  margin: 1.5em 0;
+}
+
+.social__body {
+  margin-bottom: 3em;
+}
+
+.social__contact p {
+  margin-left: 1em;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.bg-light {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

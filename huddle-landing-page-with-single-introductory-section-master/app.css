@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: hsl(257, 40%, 49%);
+  font-family: "Open Sans", "serif";
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  text-align: center;
+  padding: 2em;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4.5em;
+}
+
+.logo-img {
+  width: 35%;
+}
+
+.promo__title {
+  font-family: "Poppins", "serif";
+  margin-top: 2.5em;
+}
+
+.promo__body {
+  margin: 1.5em 0;
+  line-height: 1.75;
+  font-size: 1.1rem;
+}
+
+.button {
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  display: inline-block;
+  background-color: white;
+  padding: 0.75em 6em;
+  margin: 2em 0;
+  border-radius: 2rem;
+  font-family: "Poppins", "serif";
+  box-shadow: rgba(31, 3, 34, 0.5) 0px 6px 10px;
+}
+
+.button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.social {
+  margin-top: 3em;
+}
+
+.social__icon + .social__icon {
+  margin-left: 0.5em;
+}
+
+.social__icon:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+  }
+
+  .container {
+    margin: 0 auto;
+    text-align: justify;
+    height: 100vh;
+  }
+
+  .promo {
+    display: flex;
+  }
+
+  .promo__text {
+    padding-left: 3em;
+  }
+
+  .promo__title {
+    font-size: 2rem;
+  }
+
+  .logo-img {
+    width: 15%;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(300, 2%, 84%);
+}
