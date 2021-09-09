@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Josefin Sans", "sans-serif";
+  font-weight: 400;
+  color: hsl(0, 36%, 70%);
+  background-color: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.hero {
+  margin: auto 0;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__content {
+  text-align: center;
+  padding: 4rem 2.5rem;
+}
+
+.hero__title-sub {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+
+.hero__title {
+  padding: 1.2rem 1rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  color: rgb(63, 63, 63);
+}
+
+.hero__cta {
+  position: relative;
+}
+
+.hero__cta-input {
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 1.5px solid hsl(0, 36%, 70%);
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  font-family: "Josefin Sans", "sans-serif";
+  color: hsl(0, 36%, 70%);
+}
+
+.hero__body {
+  line-height: 1.5;
+}
+
+.logo {
+  padding: 2rem;
+}
+
+.hero__cta {
+  margin: 2.5rem 0;
+}
+
+.hero__cta-submit {
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  padding: 1rem 1.8rem;
+  border-radius: 50px;
+  box-shadow: 0px 10px 50px -15px hsl(0, 6%, 24%);
+  position: absolute;
+  right: 0px;
+  top: -1px;
+}
+
+.attribution {
+  padding: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 985px) {
+  .content__wrapper {
+    position: relative;
+  }
+
+  .logo {
+    margin-left: 6rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .hero__title {
+    padding: 1.12rem 0;
+    font-size: 3rem;
+  }
+
+  .hero__img {
+    max-width: 45%;
+    max-height: 100%;
+
+    top: 0;
+    right: 0;
+    position: absolute;
+    align-self: center;
+  }
+
+  .hero__content {
+    text-align: start;
+    max-width: 35%;
+    margin-right: auto;
+    margin-left: 6rem;
+  }
+}
