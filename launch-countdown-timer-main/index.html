@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" type="text/css" href="./app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script src="./app.js" defer></script>
+    <title>Frontend Mentor | Launch countdown timer</title>
+  </head>
+  <body class="container">
+    <main>
+      <section class="hero">
+        <h1 class="hero__title">We're launching soon</h1>
+        <div class="hero__timer"></div>
+      </section>
+
+      <div class="launch__counter">
+        <template class="counter__card__template">
+          <div class="counter">
+            <div class="counter__card">
+              <h2 class="counter__card-title">50</h2>
+              <div class="counter__card-shadow"></div>
+            </div>
+            <p class="counter__name"></p>
+          </div>
+        </template>
+      </div>
+    </main>
+    <footer>
+      <section class="social">
+        <img class="social__icon" src="./images/icon-facebook.svg" alt="" />
+        <img class="social__icon" src="./images/icon-pinterest.svg" alt="" />
+        <img class="social__icon" src="./images/icon-instagram.svg" alt="" />
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
